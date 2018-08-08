@@ -24,6 +24,7 @@ namespace BDD.Tests.Utils
         {
             return true;
         }
+
         public bool Compare(string expectedValue, object actualValue)
         {
             if (actualValue == null)
